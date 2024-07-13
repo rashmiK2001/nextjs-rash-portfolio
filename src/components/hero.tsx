@@ -30,10 +30,10 @@ const Hero = () => {
        */}
 
 
-            <div className="flex justify-center relative my-20 z-10">
-                <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-                    <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-                        Dynamic Web Magic with Next.js
+            <div className="flex justify-start relative my-20 z-10">
+                <div className="max-w-[89vw] md:max-w-xl lg:max-w-[48vw] flex flex-col items-start justify-center">
+                    <p className=" tracking-widest text-xs  md:text-s text-center text-blue-100 max-w-80">
+                        Hello !,Iam
                     </p>
 
                     {/**
@@ -42,12 +42,12 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
                     <TextGenerateEffect
-                        words="Transforming Concepts into Seamless User Experiences"
-                        className="text-center text-[40px] md:text-5xl lg:text-6xl"
+                        words="Rashmi K"
+                        className=" text-[70px] font-bold text-base md:text-2xl lg:text-6xl text-stone-500"
                     />
 
-                    <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-stone-200">
-                        Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
+                    <p className=" md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl text-stone-200">
+                        An accomplished front-end developer with over 2 years of experience. Explore my portfolio to see my latest projects and innovations!
                     </p>
                     <div className="flex space-x-2">
                         <a href="#about">
